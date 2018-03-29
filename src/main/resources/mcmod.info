@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dwarven_candles",
+  "name": "Dwarven Candles",
+  "description": "Adds Dwarven Candles for easier explosion mining",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["EnderiumSmith"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

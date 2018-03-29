@@ -1,0 +1,17 @@
+{
+    "variants": {
+        "facing=up,primed=false": { "model": "dwarven_candles:dynamite" },
+	"facing=down,primed=false": { "model": "dwarven_candles:dynamite", "x": 180 },
+        "facing=east,primed=false": { "model": "dwarven_candles:dynamite_wall" },
+        "facing=south,primed=false": { "model": "dwarven_candles:dynamite_wall", "y": 90 },
+        "facing=west,primed=false": { "model": "dwarven_candles:dynamite_wall", "y": 180 },
+        "facing=north,primed=false": { "model": "dwarven_candles:dynamite_wall", "y": 270 },
+
+	"facing=up,primed=true": { "model": "dwarven_candles:dynamite" },
+	"facing=down,primed=true": { "model": "dwarven_candles:dynamite", "x": 180 },
+        "facing=east,primed=true": { "model": "dwarven_candles:dynamite_wall" },
+        "facing=south,primed=true": { "model": "dwarven_candles:dynamite_wall", "y": 90 },
+        "facing=west,primed=true": { "model": "dwarven_candles:dynamite_wall", "y": 180 },
+        "facing=north,primed=true": { "model": "dwarven_candles:dynamite_wall", "y": 270 }
+    }
+}
