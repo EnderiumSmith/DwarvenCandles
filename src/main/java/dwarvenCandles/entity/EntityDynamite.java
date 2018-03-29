@@ -101,7 +101,7 @@ public class EntityDynamite extends Entity{
 	        {
 	            AxisAlignedBB axisalignedbb = iblockstate.getCollisionBoundingBox(this.world, blockpos);
 	
-	            if (axisalignedbb != Block.NULL_AABB && axisalignedbb.offset(blockpos).isVecInside(vec3d))
+	            if (axisalignedbb != Block.NULL_AABB && axisalignedbb.offset(blockpos).contains(vec3d))
 	            {
 	                this.motionX=0;
 	                this.motionY=0;
